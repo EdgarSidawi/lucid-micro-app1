@@ -12,8 +12,6 @@ class SportController extends Controller
     public function index()
     {
         return $this->serve(GetSportsFeature::class);
-        // $sport = Sport::all();
-        // return view('welcome', ['data' => $sport]);
     }
 
     public function add()
